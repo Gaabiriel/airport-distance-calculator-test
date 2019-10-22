@@ -4,8 +4,7 @@ namespace ProgrammingTest.Infra.CrossCutting
 {
     public static class DistanceCalculator
     {
-
-        public static double GetDistanceFromLatLonInKm(double lat1, double lon1, double lat2, double lon2)
+        public static double GetDistanceFromLatLonInMl(double lat1, double lon1, double lat2, double lon2)
         {
             var R = 6371; // Radius of the earth in km
             var dLat = Deg2rad(lat2 - lat1);  // deg2rad below

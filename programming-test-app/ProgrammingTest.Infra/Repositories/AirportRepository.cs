@@ -25,19 +25,12 @@ namespace ProgrammingTest.Infra.Data.Repositories
 
             var response = await client.SendAsync(request);
 
-            Airport airport = new Airport();
-
             if (response.IsSuccessStatusCode)
             {
                 var result = await response.Content.ReadAsStringAsync();
-                airport = JsonConvert.DeserializeObject<Airport>(result);
+                return JsonConvert.DeserializeObject<Airport>(result);
             }
-            else
-            {
-                Exception exception = new Exception("Airport not found, please verify if you type the right IATA");
-                throw exception;
-            }
-            return airport;
+            return new Airport();
         }
     }
 }

@@ -29,17 +29,23 @@ namespace ProgrammingTest.Controllers
             var resultSecondAirport = await airportAppService.GetByIataAsync(secondIata);
             AirportModel secondAirportModel = mapper.Map<AirportModel>(resultSecondAirport);
 
+            return new JsonResult(ValidateAirportDistanceResult(firstAirportModel, secondAirportModel));
+        }
+
+        private double ValidateAirportDistanceResult(AirportModel firstAirportModel, AirportModel secondAirportModel)
+        {
             var distance = 0.0;
 
-            if (firstAirportModel.Lat == 0 || firstAirportModel.Lon == 0 && secondAirportModel.Lat == 0 && secondAirportModel.Lon == 0)
+            if (firstAirportModel.Lat != 0
+               && firstAirportModel.Lon != 0
+               && secondAirportModel.Lat != 0
+               && secondAirportModel.Lon != 0)
             {
-                distance = DistanceCalculator.GetDistanceFromLatLonInKm(firstAirportModel.Lat, firstAirportModel.Lon, secondAirportModel.Lat, secondAirportModel.Lon);
-                return new JsonResult(distance);
+
+                distance = DistanceCalculator.GetDistanceFromLatLonInMl(firstAirportModel.Lat, firstAirportModel.Lon, secondAirportModel.Lat, secondAirportModel.Lon);
+                return distance;
             }
-            else
-            {
-                return new JsonResult(distance);
-            }
+            return distance;
         }
     }
 }

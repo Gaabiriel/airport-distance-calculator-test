@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Infra\\ProgrammingTest.Infra.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Domain\\ProgrammingTest.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Domain\\ProgrammingTest.Domain.csproj",
+        "projectName": "ProgrammingTest.Domain",
+        "projectPath": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Domain\\ProgrammingTest.Domain.csproj",
+        "packagesPath": "C:\\Users\\gsouzasilva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gsouzasilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://proget.fftech.info/nuget/farfetch-nuget-dev/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Infra\\ProgrammingTest.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Infra\\ProgrammingTest.Infra.Data.csproj",
+        "projectName": "ProgrammingTest.Infra.Data",
+        "projectPath": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Infra\\ProgrammingTest.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\gsouzasilva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gsouzasilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://proget.fftech.info/nuget/farfetch-nuget-dev/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Domain\\ProgrammingTest.Domain.csproj": {
+                "projectPath": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Domain\\ProgrammingTest.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

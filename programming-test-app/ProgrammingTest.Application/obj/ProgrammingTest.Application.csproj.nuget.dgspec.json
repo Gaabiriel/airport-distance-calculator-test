@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Application\\ProgrammingTest.Application.csproj": {}
+    "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\programming-test-app\\ProgrammingTest.Application\\ProgrammingTest.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Application\\ProgrammingTest.Application.csproj": {
+    "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\programming-test-app\\ProgrammingTest.Application\\ProgrammingTest.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Application\\ProgrammingTest.Application.csproj",
+        "projectUniqueName": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\programming-test-app\\ProgrammingTest.Application\\ProgrammingTest.Application.csproj",
         "projectName": "ProgrammingTest.Application",
-        "projectPath": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Application\\ProgrammingTest.Application.csproj",
+        "projectPath": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\programming-test-app\\ProgrammingTest.Application\\ProgrammingTest.Application.csproj",
         "packagesPath": "C:\\Users\\gsouzasilva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Application\\obj\\",
+        "outputPath": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\programming-test-app\\ProgrammingTest.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -25,14 +25,13 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://proget.fftech.info/nuget/farfetch-nuget-dev/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Domain\\ProgrammingTest.Domain.csproj": {
-                "projectPath": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Domain\\ProgrammingTest.Domain.csproj"
+              "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\programming-test-app\\ProgrammingTest.Domain\\ProgrammingTest.Domain.csproj": {
+                "projectPath": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\programming-test-app\\ProgrammingTest.Domain\\ProgrammingTest.Domain.csproj"
               }
             }
           }
@@ -74,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Domain\\ProgrammingTest.Domain.csproj": {
+    "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\programming-test-app\\ProgrammingTest.Domain\\ProgrammingTest.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Domain\\ProgrammingTest.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\programming-test-app\\ProgrammingTest.Domain\\ProgrammingTest.Domain.csproj",
         "projectName": "ProgrammingTest.Domain",
-        "projectPath": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Domain\\ProgrammingTest.Domain.csproj",
+        "projectPath": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\programming-test-app\\ProgrammingTest.Domain\\ProgrammingTest.Domain.csproj",
         "packagesPath": "C:\\Users\\gsouzasilva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Domain\\obj\\",
+        "outputPath": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\programming-test-app\\ProgrammingTest.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -95,8 +94,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://proget.fftech.info/nuget/farfetch-nuget-dev/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {

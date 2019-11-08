@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Infra.CrossCutting\\ProgrammingTest.Infra.CrossCutting.csproj",
+      "projectUniqueName": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\programming-test-app\\ProgrammingTest.Infra.CrossCutting\\ProgrammingTest.Infra.CrossCutting.csproj",
       "projectName": "ProgrammingTest.Infra.CrossCutting",
-      "projectPath": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Infra.CrossCutting\\ProgrammingTest.Infra.CrossCutting.csproj",
+      "projectPath": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\programming-test-app\\ProgrammingTest.Infra.CrossCutting\\ProgrammingTest.Infra.CrossCutting.csproj",
       "packagesPath": "C:\\Users\\gsouzasilva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\ProgrammingTest\\ProgrammingTest.Infra.CrossCutting\\obj\\",
+      "outputPath": "C:\\Users\\gsouzasilva\\Downloads\\estudos\\programming-tests\\airport-distance-calculator-test\\programming-test-app\\ProgrammingTest.Infra.CrossCutting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -32,8 +32,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://proget.fftech.info/nuget/farfetch-nuget-dev/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.0": {
